@@ -34,7 +34,7 @@ export default class CustomerDetails extends Component {
   // --C1 THIS is Natalis commit
 
   render() {
-    if (!this.state.customerDetails)
+    if (!this.state.customerDetails || !this.state.customerDetails.data.name) // C_K1 Kisan's commit 1
       return (<p>Loading Data</p>)
     return (<div className="customerdetails">
       <Panel bsStyle="info" className="centeralign">
