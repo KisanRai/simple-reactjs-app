@@ -31,6 +31,8 @@ export default class CustomerDetails extends Component {
     })
   };
 
+  // --C1 THIS is Natalis commit
+
   render() {
     if (!this.state.customerDetails)
       return (<p>Loading Data</p>)
