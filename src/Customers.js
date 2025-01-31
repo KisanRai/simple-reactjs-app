@@ -27,9 +27,8 @@ export default class Customers extends Component {
 
   render() {
     if (!this.state.customerList || this.state.customerList) // J1 - Janes commit1
-      // ZACK 1
-      // ZACK 1
-      // ZACK 1
+      // User 1
+      // User 1
       return (<p>Loading data</p>)
     return (<div className="addmargin">
       <div className="col-md-3">
